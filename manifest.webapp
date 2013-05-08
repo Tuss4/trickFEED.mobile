@@ -1,0 +1,10 @@
+{
+	"name": "trickFEED",
+	"version": "1.0",
+	"description": "Get the latest martial arts tricking news from the web!",
+	"launch_path": "/index.html",
+	"developer": {
+		"name": "Tomjo Soptame",
+		"url": "http://tuss4dzigns.com"
+	}
+}

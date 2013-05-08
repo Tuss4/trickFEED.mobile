@@ -1,0 +1,31 @@
+body {
+	font-family: verdana, sans-serif, arial;
+}
+#overlay {
+	position: fixed;
+	z-index: 100;
+	display: none;
+	background-color: rgba(0,0,0,0.8);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	color: #fff;
+	text-align: center;
+}
+#header {
+	font-weight: bold;
+	text-align: center;
+}
+#content li {
+	display: inline-block;
+	padding: .25%;
+}
+#content li:hover {
+	background-color: #CCC;
+}
+iframe {
+	border: 0;
+	max-width: 100%;
+	max-height: 100%
+}
