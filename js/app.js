@@ -6,7 +6,7 @@ function changeThisId(datum){
 	document.getElementById("ytplayer").setAttribute("src",getThisId(datum));
 }
 $(document).ready(function(){
-	var videoFeed = "http://gdata.youtube.com/feeds/api/videos?q=tricking&alt=json&format=5&max-results=30&orderby=published&callback=?&v=2&category=tricking";
+	var videoFeed = "http://gdata.youtube.com/feeds/api/videos?q=tricking&alt=json&format=5&max-results=20&orderby=published&callback=?&v=2&category=tricking";
 	var output = "<ul>";
 	$.getJSON(videoFeed, function(data){
 		for(var i in data.feed.entry){

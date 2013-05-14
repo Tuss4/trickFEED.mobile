@@ -6,5 +6,8 @@
 	"developer": {
 		"name": "Tomjo Soptame",
 		"url": "http://tuss4dzigns.com"
+	},
+	"icons": {
+		"128": "/icon/tfIcon.png"
 	}
 }
